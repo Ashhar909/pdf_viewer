@@ -29,11 +29,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Screenshots
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/var/folders/yr/sksm7hr517xg5fb313y6l42c0000gn/T/TemporaryItems/NSIRD_screencaptureui_RyMHqq/Screenshot%202022-12-28%20at%203.47.26%20AM.png?version%3D1672179465591)
-
-
-
 ## Contributing
 
 Pull requests are welcome. For significant changes, please open an issue first
