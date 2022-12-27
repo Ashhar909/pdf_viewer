@@ -27,6 +27,7 @@ const Annotations = (props) => {
     }
 
     localStorage.setItem(`${props.paperId}-length`, annotations.length.toString())
+    // eslint-disable-next-line
   }, [newAnnotation ])
   
 

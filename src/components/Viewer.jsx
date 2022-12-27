@@ -13,13 +13,12 @@ const Viewer = () => {
     type: "author",
   });
   
-  // * length of annotations for the current Pdf
-  var length = localStorage.getItem(`${id}-length`);
   
   const [annoList, setAnnoList] = useState([]);
   const [boxList, setBoxList] = useState([])
   useEffect(() => {
-    length = localStorage.getItem(`${id}-length`);
+    // * length of annotations for the current Pdf
+    var length = localStorage.getItem(`${id}-length`);
     console.log(length);
     setAnnoList([])
     for (var i = 0; i < length; i++) {
@@ -27,6 +26,7 @@ const Viewer = () => {
     }
     console.log(annoList);
     setBoxList(annoList)
+    // eslint-disable-next-line
   }, [id, highlight]);
 
   const boxes = boxList
